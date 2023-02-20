@@ -13,6 +13,20 @@
     list-style: none;
 }
 
+body {
+    background-color: $gradient2;
+}
+footer p, footer a{
+    color: $textColor;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: $purple;
+}
+
 .container {
     max-width: 960px;
     width: 100%;
