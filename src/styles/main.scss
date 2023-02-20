@@ -1,4 +1,8 @@
+@import 'variables';
 @import 'hero';
+@import './components/infos-bar';
+@import './components/button';
+@import 'event';
 
 * {
     padding: 0;
@@ -6,6 +10,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: #fff;
+    list-style: none;
 }
 
 .container {

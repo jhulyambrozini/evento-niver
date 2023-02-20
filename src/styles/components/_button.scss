@@ -1,0 +1,28 @@
+@import '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+   white-space: nowrap;
+
+    &--primary {
+        color: $textColor;
+        background-color: $purple;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+       width: 100%;
+       text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
